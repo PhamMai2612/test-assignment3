@@ -70,7 +70,6 @@ def test_create_post_with_background():
   """
   CP3: Alternative flow of post with selective background
   """
-
   post_content = "iphone 12 mau tim"
   driver = CookieLoader.load_cookie()
   driver.get(TINHTE)
